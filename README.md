@@ -1,2 +1,2 @@
-# demo-blogs
-demo-blogs
+# demo-blog
+demo-blog
