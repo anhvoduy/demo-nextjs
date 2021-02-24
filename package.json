@@ -1,19 +1,17 @@
 {
-  "name": "demo-blogs",
-  "version": "1.0.0",
-  "description": "demo-blogs",
-  "main": "index.js",
+  "name": "app-blogs",
+  "version": "0.1.0",
+  "author": "voduyanh",
+  "email": "voduyanh1984@yahoo.com",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anhvoduy/demo-blogs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anhvoduy/demo-blogs/issues"
-  },
-  "homepage": "https://github.com/anhvoduy/demo-blogs#readme"
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
 }
