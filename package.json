@@ -7,9 +7,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "next": "next start",
+    "start": "node server.js"
   },
+  "main": "main.js",
   "dependencies": {
+    "express": "^4.17.1",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
