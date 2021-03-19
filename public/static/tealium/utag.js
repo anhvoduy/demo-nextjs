@@ -1,3 +1,4 @@
+/*
 (function(w,t) {
     t = w.tms = w.tms || {}; t.queue = t.queue || new Array();
     t.config = {site_type: 'single_page', trigger_view_on_hashchange: 'true'} // for SPA
@@ -6,6 +7,7 @@
         link: function(u,cb,uid) {tms.queue.push({event: 'link', data: u, cb: cb, uid: uid }); return true;}
     }
 })();
+*/
 
 (function(a,b,c,d,e) {
     a='//tags.tiqcdn.com/utag/hsbc/hk-rbwm-gsp/dev/utag.js';

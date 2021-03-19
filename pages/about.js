@@ -5,16 +5,7 @@ import Footer from '../components/footer';
 
 const About = function () {
     useEffect(() => {
-        console.log('- useEffect - about .....');
-        if(utag) {
-            utag.view({
-            "tealium_event": "product_view",
-            "page_type"    : "product_quick_view",
-            "page_name"    : "about_us",
-            "product_id"   : ["12345"],
-            "product_name" : ["Lucky Shirt"]
-            });
-        }
+        console.log('- useEffect - about .....');        
         // When page loads
         //trackPageLoad({a: 'a'}); // this will call utag.view(myDataLayer)
         // When button is clicked
