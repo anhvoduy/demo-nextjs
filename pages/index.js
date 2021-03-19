@@ -1,18 +1,21 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import styles from '../styles/Home.module.css'
+import Welcome from '../components/welcome';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Home Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="//tags.tiqcdn.com/utag/hsbc/hk-rbwm-gsp/dev/utag.sync.js" type="text/javascript" async=""></script>
+        <script src="/static/tealium/utag_data.js" type="text/javascript" async=""></script>
+        <script src="/static/tealium/utag.js" type="text/javascript" async=""></script>
       </Head>
-
+      
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Welcome />
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -46,20 +49,23 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
+            <p>
+              <button id='btn_id' onClick={(e) => {
+                e.preventDefault();
+                console.log('cliked me');
+                
+                  TMS.trackEvent({
+                    page_name: document.title,
+                    page_url: document.URL
+                  });
+                
+              }}> clicked</button>
+            </p>
           </a>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
