@@ -5,11 +5,7 @@ import Footer from '../components/footer';
 
 const About = function () {
     useEffect(() => {
-        console.log('- useEffect - about .....');        
-        // When page loads
-        //trackPageLoad({a: 'a'}); // this will call utag.view(myDataLayer)
-        // When button is clicked
-        //trackEvent({b: 'b'}); // this will call utag.link(myDataLayer)
+        console.log('- useEffect - about .....');
     }, []);
 
     return <div className={styles.container}>
