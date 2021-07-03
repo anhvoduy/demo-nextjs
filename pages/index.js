@@ -50,12 +50,6 @@ export default function Home() {
               <button id='btn_id' onClick={(e) => {
                 e.preventDefault();
                 console.log('cliked me');
-                
-                  TMS.trackEvent({
-                    page_name: document.title,
-                    page_url: document.URL
-                  });
-                
               }}> clicked</button>
             </p>
           </a>
