@@ -12,11 +12,8 @@ const About = function () {
         <Head>
             <title>About Us</title>
             <link rel="icon" href="/favicon.ico" />
-            <script src="//tags.tiqcdn.com/utag/hsbc/hk-rbwm-gsp/dev/utag.sync.js" type="text/javascript" async=""></script>            
         </Head>
         <main className={styles.main}>
-            <script src="/static/tealium/utag_data.js" type="text/javascript" async=""></script>
-            <script src="/static/tealium/utag.js" type="text/javascript" async=""></script>
             <h1 className="title">
                 <a href="/index">Back to home</a>
             </h1>
