@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import data from './mock-data.json';
-import Pagination from './pagination';
+import Pagination from '../base/pagination';
 
 let PageSize = 10;
 
