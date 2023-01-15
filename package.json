@@ -12,8 +12,9 @@
   },
   "main": "main.js",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "express": "^4.17.1",
-    "next": "10.0.6",
+    "next": "12.3.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }
