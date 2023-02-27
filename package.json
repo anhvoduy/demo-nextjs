@@ -1,8 +1,7 @@
 {
   "name": "demo-nextjs",
-  "version": "0.1.1",
-  "author": "voduyanh",
-  "email": "voduyanh1984@gmail.com",
+  "version": "0.0.2",
+  "author": "duyanh2005@gmail.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
